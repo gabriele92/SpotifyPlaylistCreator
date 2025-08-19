@@ -1,5 +1,10 @@
 package it.gabriele92.playlistcreator;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 import com.wrapper.spotify.SpotifyApi;
 import com.wrapper.spotify.model_objects.specification.Paging;
 import com.wrapper.spotify.model_objects.specification.Playlist;
@@ -7,12 +12,6 @@ import com.wrapper.spotify.model_objects.specification.Track;
 import com.wrapper.spotify.requests.data.playlists.AddItemsToPlaylistRequest;
 import com.wrapper.spotify.requests.data.playlists.CreatePlaylistRequest;
 import com.wrapper.spotify.requests.data.search.simplified.SearchTracksRequest;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class PlaylistCreator {
 
